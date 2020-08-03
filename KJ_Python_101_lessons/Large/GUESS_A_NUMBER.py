@@ -109,7 +109,6 @@ def number_game(my_random_number):
         if play_again == 'N':
             print("Bye.")
         if play_again == 'Y':
-            import random
             number_game(my_random_number)
     else:
         print("Yes! You win!")
@@ -117,7 +116,6 @@ def number_game(my_random_number):
         if play_again == 'N':
             print("Bye.")
         if play_again == 'Y':
-            import random
             number_game(my_random_number)
 
 number_game(my_random_number)
