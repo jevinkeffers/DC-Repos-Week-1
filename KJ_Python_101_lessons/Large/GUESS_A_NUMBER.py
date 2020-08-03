@@ -109,13 +109,13 @@ def number_game():
         if play_again == 'N':
             print("Bye.")
         if play_again == 'Y':
-            number_game()
+            number_game(my_random_number)
     else:
         print("Yes! You win!")
         play_again = input("Would you like to play again? (Y or N) ").upper()
         if play_again == 'N':
             print("Bye.")
         if play_again == 'Y':
-            number_game()
+            number_game(my_random_number)
 
-number_game()
+number_game(my_random_number)
